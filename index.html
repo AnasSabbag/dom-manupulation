@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manupulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title-heading">Counter using HTML</h1>
+
+      <div class="text-contaner">
+        <p id="message">Your current count is: 1</p>
+        <p id="err-message"></p>
+      </div>
+
+      <button type="submit" id="dec" onclick="decrementCount()">
+        Decrement
+      </button>
+      <button type="submit" id="inc" onclick="incrementCount()">
+        Increment
+      </button>
+      <button type="submit" id="rest" onclick="clearCount()">Clear</button>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

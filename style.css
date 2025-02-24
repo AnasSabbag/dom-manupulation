@@ -1,0 +1,19 @@
+
+body{
+  background: black;
+  color: white;  
+  
+}
+.text-contaner{
+
+  height: 30px;
+  width: 200px;
+}
+#message{
+  border-bottom: 2px solid white;
+  
+}
+
+#err-message{
+  color: red;
+}
