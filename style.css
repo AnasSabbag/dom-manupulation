@@ -5,10 +5,13 @@ body{
   
 }
 .text-contaner{
-
   height: 30px;
   width: 200px;
 }
+.btn-container{
+  margin-top: 30px;
+}
+
 #message{
   border-bottom: 2px solid white;
   
@@ -16,4 +19,6 @@ body{
 
 #err-message{
   color: red;
+  margin-top:10px;
+  margin-bottom:10px;
 }
